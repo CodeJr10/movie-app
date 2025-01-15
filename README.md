@@ -1,8 +1,33 @@
-# React + Vite
+# Movie-app Database
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based movie database application that fetches and displays popular movies using the [TMDB API](https://developers.themoviedb.org/3/getting-started). The app is styled with a Netflix-inspired theme, featuring a sleek dark interface and responsive design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetch and display popular movies from TMDB.
+- Netflix-inspired design with a dark theme and hover effects.
+- Responsive layout for seamless viewing across devices.
+- Movie cards display:
+  - Poster
+  - Title
+  - Rating
+  - Overview
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/netflix-themed-movie-database.git
+   cd movie-database
+2. Install dependencies:
+
+npm install
+
+3. Obtain an API key from TMDB and replace your_api_key_here in the Movies component:
+
+const API_KEY = "your_api_key_here"; 
+
+4. Start the development server:
+
+npm start
